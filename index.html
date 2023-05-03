@@ -11,42 +11,31 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Carrental</title>
   </head>
   <body>
     <div>
+      <div>
+        <div class="nav-bcgrd">
+          <header id="header" class="container-lg">
+            <img id="header-img" src="./images/Group 4.png" alt="logo" />
+            <nav id="nav-bar">
+              <ul>
+                <li class="nav-link"><a href="#hero-container">Welcome</a></li>
+                <li class="nav-link"><a href="#offer-section">Our offer</a></li>
+                <li class="nav-link"><a href="#steps-section">How it works</a></li>
+                <li class="nav-link"><a href="#form">Get in touch</a></li>
+                <!-- <li class="nav-link login"><a href="#">Login</a></li> -->
+              </ul>
+            </nav>
+          </header>
+        </div>
       <section id="hero">
-        <header id="header" class="container-lg">
-          <img id="header-img" src="./images/Group 4.png" alt="logo" />
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Become a renter</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">How it works</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active">Why chose use</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active">Login</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
         <div id="hero-container" class="container-lg">
           <div class="hero-content-section">
             <h1>Find, book and rent a car in <strong>Easy</strong> steps.</h1>
-            <button type="button" class="btn btn-primary"><a>Video</a></button>
-            <button type="button" class="btn btn-primary white-bg">Register</button>
+            <button type="button" class="btn btn-primary"><a style="color: aliceblue" href="https://www.youtube.com/watch?v=mKci2gErqJo"> Watch tutorial Video</a></button>
+            <button type="button" class="btn btn-primary white-bg"><a style="color: rgb(0, 43, 104)" href="#form">Get Started</a></button>
           </div>
           <div class="hero-img-container">
             <img class="hero-img" src="./images/car 1 1.png" alt="hero-img" />
@@ -111,22 +100,24 @@
             </div>
           </div>
         </div>
-        <div id="form">
+      </section>
+      <section class="form-bcgrd">
+        <div id="form" class="container-sm d-flex flex-column align-items-center">
           <h2>Get in touch</h2>
-          <form>
+          <form action="https://www.freecodecamp.com/email-submit" method="post">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Name</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" aria-describedby="emailHelp">
+              <label for="full-name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="full-name" placeholder="Type your full name here" aria-describedby="emailHelp" required />
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Email</label>
-              <input type="email" class="form-control" placeholder="Email" id="exampleInputPassword1">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Type your email address here" id="email" required />
             </div>
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Leave us a message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </section>
