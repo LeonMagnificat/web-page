@@ -202,8 +202,8 @@ form {
   background-color: #c0cdff;
 }
 
-#exampleInputEmail1,
-#exampleInputPassword1 {
+#full-name,
+#email {
   height: 60px;
   border-radius: 15px;
 }

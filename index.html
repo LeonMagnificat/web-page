@@ -20,11 +20,11 @@
           <img id="header-img" src="./images/Group 4.png" alt="logo" />
           <nav id="nav-bar">
             <ul>
-              <li class="nav-link"><a href="#">Become a renter</a></li>
-              <li class="nav-link"><a href="#">Rental deals</a></li>
-              <li class="nav-link"><a href="#">How it works</a></li>
-              <li class="nav-link"><a href="#">Why choose us</a></li>
-              <li class="nav-link login"><a href="#">Login</a></li>
+              <li class="nav-link"><a href="#hero-container">Welcome</a></li>
+              <li class="nav-link"><a href="#offer-section">Our offer</a></li>
+              <li class="nav-link"><a href="#steps-section">How it works</a></li>
+              <li class="nav-link"><a href="#form">Get in touch</a></li>
+              <!-- <li class="nav-link login"><a href="#">Login</a></li> -->
             </ul>
           </nav>
         </header>
@@ -103,20 +103,20 @@
       <section class="form-bcgrd">
         <div id="form" class="container-sm d-flex flex-column align-items-center">
           <h2>Get in touch</h2>
-          <form>
+          <form action="https://www.freecodecamp.com/email-submit" method="post">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Name</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Type your full name here" aria-describedby="emailHelp" required />
+              <label for="full-name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="full-name" placeholder="Type your full name here" aria-describedby="emailHelp" required />
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Email</label>
-              <input type="email" class="form-control" placeholder="Type your email address here" id="exampleInputPassword1" required />
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Type your email address here" id="email" required />
             </div>
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">Message</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Leave us a message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </section>
