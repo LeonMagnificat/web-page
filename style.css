@@ -1,18 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito";
 }
 
 /* NAV_BAR SECTION */
-
-#header{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3% 6%;
-}
 
 * {
   margin: 0;
@@ -23,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3% 6%;
+  padding-block: 1%;
 }
 
 #nav-bar ul {
@@ -33,68 +27,76 @@
   gap: 30px;
 }
 
-ul, li, a{
-    text-decoration: none;
-    color: #2c2b2b;
-    margin-top: 7px;
+ul,
+li,
+a {
+  text-decoration: none;
+  color: #2c2b2b;
+  margin-top: 7px;
 }
 
-#nav-bar, .login{
-    margin-left: 80px;
+#nav-bar,
+.login {
+  margin-left: 80px;
 }
 
 /* HERO SECTION */
 
-#hero-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0% 6%;
+#hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-content-section{
-    flex: 1;
+.hero-content-section {
+  flex: 1;
 }
 
-.hero-content-section h1{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 87px;
-    color: #000000;
-    margin-bottom: 46px;
+.hero-content-section h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8em;
+  line-height: 87px;
+  color: #000000;
+  margin-bottom: 46px;
 }
 
-.hero-content-section strong{
-    color: #3083FF;
+.hero-content-section strong {
+  color: #3083ff;
 }
 
-.hero-img-container{
-   flex: 1;
+.hero-img-container {
+  flex: 1;
 }
 
-.hero-img{
+.hero-img {
   position: relative;
   right: 100px;
   width: 130%;
   height: 100%;
 }
-
-.btn{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;  
-    color: #FFFFFF;
-    padding: 15px 30px;
-    margin-right: 10px;
+.offer-img {
+  position: relative;
+  right: 100px;
+  top: 170px;
+  width: 500px;
 }
 
-.white-bg{
-    background-color: #ffffff;
-    color: #3083FF;
+.btn {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 15px 30px;
+  margin-right: 10px;
+}
+
+.white-bg {
+  background-color: #ffffff;
+  color: #3083ff;
 }
 
 ul,
@@ -105,6 +107,8 @@ a {
 }
 
 /* Leons Part */
+
+/* offer SECTION */
 
 .offer-section {
   background-color: #ffffff;
@@ -117,12 +121,17 @@ a {
   width: 50px;
   height: 50px;
 }
+.offer-content {
+  flex: 1;
+}
 .titles-offer {
   font-size: 2rem;
   font-weight: bold;
   color: #000;
   margin-block: 80px;
 }
+
+/* steps SECTION */
 
 .bcg-color {
   background-color: #f2f4fc;
