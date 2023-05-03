@@ -20,24 +20,21 @@
   padding-block: 1%;
 }
 
-#nav-bar ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+.navbar-nav{
+    gap: 50px;
+    background-color: #ffffff;
 }
 
-ul,
-li,
-a {
-  text-decoration: none;
-  color: #2c2b2b;
-  margin-top: 7px;
+.navbar{
+    background-color: #ffffff;
 }
 
-#nav-bar,
-.login {
-  margin-left: 80px;
+.navbar-collapse{
+    background-color: #ffffff;
+}
+
+.container-fluid{
+    background-color: #ffffff;
 }
 
 /* HERO SECTION */
@@ -189,4 +186,31 @@ form{
 
 .form-width{
     width: 100%;
+}
+
+
+@media screen and (max-width:800px) {
+    #hero-container{
+        flex-direction: column;
+    }
+
+    .hero-content-section h1{
+       font-size: 3.5rem;
+    }
+
+    .hero-img{
+        position: relative;
+        right: 0;
+    }
+
+    #offer-section{
+        flex-direction: column;
+    }
+
+    .offer-img{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 120%;
+    }
 }
