@@ -14,11 +14,23 @@
     padding: 3% 6%;
 }
 
-#nav-bar ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 6%;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 ul, li, a{
@@ -85,15 +97,36 @@ ul, li, a{
     color: #3083FF;
 }
 
-
-
+ul,
+li,
+a {
+  text-decoration: none;
+  color: #2c2b2b;
+}
 
 /* Leons Part */
 
+.offer-section {
+  background-color: #ffffff;
+  padding: 160px;
+}
+.offer-box {
+  padding: 30px;
+  background-color: #f2f4fc;
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+}
+.titles-offer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin-block: 80px;
+}
+
 .bcg-color {
   background-color: #f2f4fc;
-
-  padding: 80px;
+  padding: 160px;
 }
 
 #car-logos {
@@ -105,7 +138,7 @@ ul, li, a{
   font-weight: bold;
   color: #000;
   text-align: center;
-  margin-block: 60px;
+  margin-block: 80px;
 }
 .steps-box {
   padding: 30px;
