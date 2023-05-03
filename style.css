@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV_BAR SECTION */
+
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 6%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +31,70 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+
+ul, li, a{
+    text-decoration: none;
+    color: #2c2b2b;
+    margin-top: 7px;
+}
+
+#nav-bar, .login{
+    margin-left: 80px;
+}
+
+/* HERO SECTION */
+
+#hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 6%;
+}
+
+.hero-content-section{
+    flex: 1;
+}
+
+.hero-content-section h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #000000;
+    margin-bottom: 46px;
+}
+
+.hero-content-section strong{
+    color: #3083FF;
+}
+
+.hero-img-container{
+   flex: 1;
+}
+
+.hero-img{
+  position: relative;
+  right: 100px;
+  width: 130%;
+  height: 100%;
+}
+
+.btn{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;  
+    color: #FFFFFF;
+    padding: 15px 30px;
+    margin-right: 10px;
+}
+
+.white-bg{
+    background-color: #ffffff;
+    color: #3083FF;
 }
 
 ul,
