@@ -161,3 +161,23 @@ a {
 .margin-left {
   margin-left: 10px;
 }
+
+/* FORM PART */
+
+#form{
+    margin-top: 100px;
+}
+
+#form h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "Nunito";
+}
+
+form{
+    width: 100%;
+}
+
+.form-width{
+    width: 100%;
+}
