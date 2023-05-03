@@ -40,6 +40,13 @@ a {
   margin-left: 80px;
 }
 
+.nav-bcgrd {
+  background-color: #dde3fa;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 /* HERO SECTION */
 
 #hero-container {
@@ -173,20 +180,34 @@ a {
 
 /* FORM PART */
 
-#form{
-    margin-top: 100px;
+#form {
+  padding-block: 100px;
 }
 
-#form h2{
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: "Nunito";
+#form h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Nunito";
 }
 
-form{
-    width: 100%;
+form {
+  width: 70%;
 }
 
-.form-width{
-    width: 100%;
+.form-width {
+  width: 100%;
+}
+
+.form-bcgrd {
+  background-color: #c0cdff;
+}
+
+#exampleInputEmail1,
+#exampleInputPassword1 {
+  height: 60px;
+  border-radius: 15px;
+}
+
+#exampleFormControlTextarea1 {
+  border-radius: 15px;
 }
